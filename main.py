@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import csv
 
 position = 'construction engineer'
 location = 'chicago il'
@@ -85,3 +86,21 @@ def get_all_jobs_list():
             jobIndex += 1
 
 get_all_jobs()
+
+# def main():
+#     nl = '\n'
+#     job_prompt = input(f'GET ALL JOBS ENTER A...{nl}'
+#                        f'GET EASY APPLY JOBS ENTER B...{nl}'
+#                        f'GET EASY APPLY LINKS ENTER C...{nl}').upper()
+#     if job_prompt == "A":
+#         get_all_jobs()
+#     elif job_prompt == "B":
+#         get_easy_apply_jobs()
+#     elif job_prompt == "C":
+#         get_easy_apply_links()
+#     else:
+#         print("INVALID INPUT, TRY AGAIN")
+#         quit()
+#
+# main()
+
