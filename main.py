@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import csv
 
 position = 'construction engineer'
 location = 'chicago il'
