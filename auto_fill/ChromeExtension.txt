@@ -1,0 +1,8 @@
+Chrome extension app url
+https://chrome.google.com/webstore/detail/autofill/nlmmgnhgdeffjkdckmikfpnddkbbfkkk
+
+Autofill Options url
+chrome-extension://nlmmgnhgdeffjkdckmikfpnddkbbfkkk/options.html#fields
+
+Extension settings url
+chrome://extensions/?id=nlmmgnhgdeffjkdckmikfpnddkbbfkkk
