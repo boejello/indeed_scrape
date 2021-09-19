@@ -9,8 +9,10 @@ position = 'construction engineer'
 location = 'miami fl'
 pageMax = 5
 
+print("... Now running main.py 1... ")
 
 def get_url(position, location, page): # Generate single url from position and location and start page
+    print("... Now running main.py 2... ")
     template = 'https://www.indeed.com/jobs?q={}&l={}&radius=10&sort=date&start={}0'
     position = position.replace(' ', '&20')
     location = location.replace(' ', '&20')
